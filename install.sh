@@ -44,6 +44,9 @@ renderProblemToDownload() {
   printf "  verifique sua autenticação com ssh"
 }
 
+## Cria o local para baixar caso não exista
+mkdir -p $DIR_ROOT
+
 if [ ! -d "$DIR_LOCAL" ]; then
   cd $DIR_ROOT
   printf "\n⬇️  BAIXANDO REI ⬇️ \n"
