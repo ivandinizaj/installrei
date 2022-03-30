@@ -5,7 +5,7 @@ DIR_LOCAL="$DIR_ROOT/$NAME_REI"
 URL_REPOSITORY="git@gitlab.roadmaps.com.br:ivan/rei-cli.git"
 
 renderLine() {
-  printf "\n\n-------------------------"
+  printf "\n\n------------------------------"
 }
 # Verifica se o comando existe
 # @example:  if ! testcmd shell; then //return true
@@ -14,8 +14,8 @@ testcmd() {
   command -v "$1" >/dev/null
 }
 renderSuccess() {
-  printf "\n ✅ CLI ADICIONADO COM SUCESSO \n "
-  printf "\n veja mais em: https://gitlab.roadmaps.com.br/ivan/rei-cli"
+  printf "\n ✅ CLI ADICIONADO COM SUCESSO ✅ \n "
+  printf "\n 📝 veja mais em: [https://gitlab.roadmaps.com.br/ivan/rei-cli]"
 }
 
 installBin() {
