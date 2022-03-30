@@ -2,6 +2,11 @@
 
 _Projeto exclusicamente para macOS_
 
+## Dependências
+
+- NodeJS/NPM
+- GIT (chave SHH com acesso ao Gitlab da Rdmapps)
+
 ## Run
 
 Para instalar o Rei CLI:
