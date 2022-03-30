@@ -15,7 +15,11 @@ testcmd() {
 }
 renderSuccess() {
   printf "\n ✅ CLI ADICIONADO COM SUCESSO ✅ \n "
+  printf "\n\n"
+  printf " ▶️  experimente agora: rei --help"
+  printf "\n\n"
   printf "\n 📝 veja mais em: [https://gitlab.roadmaps.com.br/ivan/rei-cli]"
+  printf "\n\n"
 }
 
 installBin() {
@@ -62,7 +66,7 @@ if [ ! -d "$DIR_LOCAL" ]; then
 
 else
   cd $DIR_LOCAL
-  printf "\n🔄  ATUALIZAR NOSSO REI 🔄 \n"
+  printf "\n🔄  ATUALIZANDO NOSSO REI 🔄 \n"
   git pull $URL_REPOSITORY
   if [ $? -eq 0 ]; then
     installDependencies
